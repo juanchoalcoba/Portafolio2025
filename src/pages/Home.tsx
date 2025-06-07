@@ -1,14 +1,14 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import About from "../components/About";
 import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 import Works from "../components/Works";
 
 const Home = () => {
-  const circle1 = useRef(null);
-  const circle2 = useRef(null);
-  const circle3 = useRef(null);
-  const overlay = useRef(null);
+  const circle1 = useRef<HTMLDivElement>(null);
+  const circle2 = useRef<HTMLDivElement>(null);
+  const circle3 = useRef<HTMLDivElement>(null);
+  const overlay = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,8 +27,8 @@ const Home = () => {
 
       // Oscurecer el fondo progresivamente, límite 0.6 de opacidad
       const maxOpacity = 0.6;
-      const scrollLimit = 500; // después de 500px scroll no sube más
-      const opacity = Math.min(scrollY / scrollLimit * maxOpacity, maxOpacity);
+      const scrollLimit = 500;
+      const opacity = Math.min((scrollY / scrollLimit) * maxOpacity, maxOpacity);
 
       if (overlay.current) {
         overlay.current.style.backgroundColor = `rgba(0,0,0,${opacity})`;
@@ -49,7 +49,7 @@ const Home = () => {
           className="absolute inset-0 pointer-events-none transition-colors duration-300"
           style={{ backgroundColor: "rgba(0,0,0,0)" }}
         />
-        
+
         <div
           ref={circle1}
           className="absolute top-20 left-10 w-96 h-96 bg-blue-900 opacity-30 rounded-full blur-3xl"
