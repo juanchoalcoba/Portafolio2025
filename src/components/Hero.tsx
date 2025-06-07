@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden h-screen w-full font-roboto flex items-center justify-center px-6 pt-20 text-white">
+    <section className="relative overflow-hidden h-screen font-roboto flex items-center justify-center pt-20 text-white">
       {/* Fondo nebuloso con gradientes y manchas */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-gray-900 via-gray-950 to-gray-900">
         <div className="absolute top-20 left-10 w-96 h-96 bg-blue-900 opacity-30 rounded-full blur-3xl" />

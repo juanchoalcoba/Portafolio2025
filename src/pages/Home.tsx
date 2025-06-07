@@ -5,6 +5,7 @@ import Works from "../components/Works";
 const Home = () => {
   return (
     <>
+      
       {/* Fondo nebuloso fijo con gradientes y manchas, detrás de todo */}
       <div className="fixed inset-0 -z-10 bg-gradient-to-tr from-gray-900 via-gray-950 to-gray-900">
         <div className="absolute top-20 left-10 w-96 h-96 bg-blue-900 opacity-30 rounded-full blur-3xl" />

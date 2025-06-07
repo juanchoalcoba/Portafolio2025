@@ -7,16 +7,15 @@
   --font-roboto: "Roboto", sans-serif; 
 }
 
-* {
-  
-  
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-
 body {
   background-color: black;
-  
+  width: 100%;
 }
 
 
