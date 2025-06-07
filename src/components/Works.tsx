@@ -47,7 +47,7 @@ const projects = [
 
 const Works = () => {
   return (
-    <section className="py-16 text-white font-roboto">
+    <section id='proyectos' className="py-16 text-white font-roboto">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-6xl font-bold text-center mb-12 flex items-center justify-center gap-4">
           <FaCode className="text-blue-200 text-4xl md:text-5xl" />

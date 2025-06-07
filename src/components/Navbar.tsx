@@ -18,7 +18,9 @@ const Navbar = () => {
         {/* Menú para pantallas medianas y grandes */}
         <ul className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-indigo-400 transition">Inicio</Link>
-          <li className="hover:text-indigo-400 cursor-pointer transition">Proyectos</li>
+          <li className="hover:text-indigo-400 cursor-pointer transition">
+            <a href="#proyectos">Proyectos</a>
+          </li>
           <li className="hover:text-indigo-400 cursor-pointer transition">Contacto</li>
         </ul>
 

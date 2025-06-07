@@ -1,3 +1,4 @@
+import { FiLogIn } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -12,7 +13,7 @@ const Hero = () => {
 
       <div className="p-1 border-2 border-gray-500 rounded-lg backdrop-blur-sm">
         <div className="p-10 border-2 border-gray-600 rounded-3xl text-center">
-            <div className="absolute inset-0 bg-black opacity-50 z-[-2]"></div>
+          <div className="absolute inset-0 bg-black opacity-50 z-[-2]"></div>
           <div className="flex items-center justify-center gap-4 mb-4 flex-wrap">
             {/* Imagen de perfil */}
             <img
@@ -26,15 +27,17 @@ const Hero = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-blue-100">
             Full Stack Developer
           </h2>
-          
 
           {/* Botones */}
           <div className="flex justify-center gap-4 mt-6 flex-wrap">
             <button className="bg-blue-900 hover:bg-blue-950 text-white font-semibold py-2 px-6 rounded-xl transition duration-300">
               Descargar CV
             </button>
-            <Link to='/home' className="bg-gray-300 hover:bg-white text-gray-800 font-semibold py-2 px-6 rounded-xl transition duration-300">
-              Ingresar
+            <Link
+              to="/home"
+              className="bg-gray-300 hover:bg-white text-gray-800 font-semibold py-2 px-6 rounded-xl transition duration-300 flex items-center gap-2"
+            >
+              Ingresar <FiLogIn size={20} />
             </Link>
           </div>
         </div>
