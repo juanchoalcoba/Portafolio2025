@@ -18,7 +18,7 @@ const Hero = () => {
             <img
               src="https://avatars.githubusercontent.com/u/107285285?v=4" // Asegurate de que esta imagen exista en la carpeta public
               alt="Foto de perfil de Juan Alcoba"
-              className="w-18 h-18 rounded-full object-cover border-2 border-blue-100"
+              className="w-16 h-16 rounded-full object-cover border-2 border-blue-100"
             />
             <p className="text-xl md:text-4xl text-blue-100">Juan Alcoba</p>
           </div>
