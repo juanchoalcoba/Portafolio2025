@@ -15,7 +15,7 @@ const Home = () => {
       </div>
 
       {/* Contenedor principal del contenido */}
-      <section className="flex flex-col items-center justify-center  font-roboto pt-20 px-6 text-white">
+      <section className="flex flex-col items-center justify-center  font-roboto pt-8 px-6 text-white">
         <div className="w-full flex flex-col justify-center items-center">
           <About />
           <Experience />
