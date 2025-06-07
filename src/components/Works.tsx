@@ -59,12 +59,12 @@ const Works = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="relative bg-gray-800 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102"
+              className="relative bg-gray-800 border-1 border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102"
             >
               <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-48 object-cover p-2"
+                className="w-full h-58 object-cover p-1 "
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
