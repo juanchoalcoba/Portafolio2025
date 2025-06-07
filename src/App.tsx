@@ -8,28 +8,30 @@ import Lenis from "@studio-freight/lenis";
 
 function App() {
   useEffect(() => {
-    const lenis = new Lenis()
+    const lenis = new Lenis();
 
-lenis.on('scroll', (e) => {
-  console.log(e)
-})
+    // Aquí tipamos `e` como un objeto cualquiera (puedes ajustarlo si conoces la forma exacta)
+    lenis.on('scroll', (e: unknown) => {
+      console.log(e);
+    });
 
-function raf(time) {
-  lenis.raf(time)
-  requestAnimationFrame(raf)
-}
+    // Tipamos `time` como número
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
 
-requestAnimationFrame(raf)
+    requestAnimationFrame(raf);
   }, []);
 
   return (
     <>
       <Navbar />
       <main className="w-full">
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/home" element={<Home />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/home" element={<Home />} />
+        </Routes>
       </main>
       <Footer />
     </>
