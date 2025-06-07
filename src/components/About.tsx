@@ -14,7 +14,7 @@ import {
 
 const About = () => {
   return (
-    <section className="min-h-screen w-full bg-gradient-to-b from-gray-950 to-gray-900 text-white flex flex-col items-center justify-center">
+    <section className="min-h-screen  text-white flex flex-col items-center justify-center">
       <h1 className="text-6xl md:text-8xl font-bold mb-6 text-blue-200 text-center drop-shadow-lg">
         Sobre mí
       </h1>

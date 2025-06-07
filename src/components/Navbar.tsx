@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-gray-900 font-roboto text-gray-300 fixed w-full z-10 shadow-lg">
-      <nav className="px-6 py-4 flex justify-between items-center border-b border-gray-500">
+      <nav className="py-4 flex justify-around items-center border-b border-gray-500">
         <Link to="/" className="text-xl font-bold cursor-pointer">
           Juancho
         </Link>
