@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Experience from "../components/Experience";
+import Footer from "../components/Footer";
 import Works from "../components/Works";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
           <About />
           <Experience />
           <Works />
+          <Footer />
         </div>
       </section>
     </>
