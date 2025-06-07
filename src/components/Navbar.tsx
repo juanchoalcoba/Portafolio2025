@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaBriefcase } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +9,10 @@ const Navbar = () => {
 
   return (
     <header className="bg-gray-900/30 font-roboto text-gray-300 fixed w-full z-10 shadow-lg backdrop-blur-2xl">
-      <nav className="py-4 flex w-full justify-around items-center border-b border-gray-500 ">
-        <Link to="/" className="text-xl font-bold cursor-pointer">
-          Juancho
+      <nav className="py-4 px-8 flex w-full justify-between items-center border-b border-gray-500 ">
+        <Link to="/" className="flex items-center text-xl font-bold cursor-pointer space-x-2">
+          <FaBriefcase className="text-gray-300" />
+          <span>Juancho</span>
         </Link>
 
         {/* Menú para pantallas medianas y grandes */}
