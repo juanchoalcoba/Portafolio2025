@@ -30,9 +30,13 @@ const Hero = () => {
 
           {/* Botones */}
           <div className="flex justify-center gap-4 mt-6 flex-wrap">
-            <button className="bg-blue-900 hover:bg-blue-950 text-white font-semibold py-2 px-6 rounded-xl transition duration-300">
+            <a
+              href="/cv.pdf"
+              download
+              className="bg-blue-900 hover:bg-blue-950 text-white font-semibold py-2 px-6 rounded-xl transition duration-300 inline-block"
+            >
               Descargar CV
-            </button>
+            </a>
             <Link
               to="/home"
               className="bg-gray-300 hover:bg-white text-gray-800 font-semibold py-2 px-6 rounded-xl transition duration-300 flex items-center gap-2"
