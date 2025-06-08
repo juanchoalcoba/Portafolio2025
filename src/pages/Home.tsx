@@ -3,6 +3,7 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Footer from "../components/Footer";
 import Works from "../components/Works";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const circle1 = useRef<HTMLDivElement>(null);
@@ -73,7 +74,9 @@ const Home = () => {
           <About />
           <Experience />
           <Works />
+          <Contact />
           <Footer />
+
         </div>
       </section>
     </>
