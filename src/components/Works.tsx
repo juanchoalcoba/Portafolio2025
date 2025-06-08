@@ -30,11 +30,11 @@ const projects = [
     demoUrl: 'https://thebeerhouse.vercel.app/',
   },
   {
-    title: 'Proyecto X',
-    description: 'Descripción breve del Proyecto X.',
-    imageUrl: '/rey.png',
-    githubUrl: 'https://github.com/usuario/proyecto-e',
-    demoUrl: 'https://proyecto-e.com',
+    title: 'Portafolio Nativo ',
+    description: 'Portafolio Nativo HTML CSS JS.',
+    imageUrl: '/port1.png',
+    githubUrl: 'https://github.com/juanchoalcoba/portfolio2024',
+    demoUrl: 'https://portafolio2024-jade.vercel.app/',
   },
   {
     title: 'Proyecto X',
