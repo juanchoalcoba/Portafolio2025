@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <section className="min-h-screen w-full bg-[#0b1120] text-blue-200 flex items-center justify-center px-4 py-16">
+    <section id="contact" className="min-h-screen w-full bg-[#0b1120] text-blue-200 flex items-center justify-center px-4 py-16">
       <div className="w-full max-w-2xl border border-blue-200 rounded-2xl p-8 shadow-lg backdrop-blur-md bg-[#0b1120]/60 z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">Contáctame</h2>
         <p className="text-center text-lg text-blue-300 mb-8">

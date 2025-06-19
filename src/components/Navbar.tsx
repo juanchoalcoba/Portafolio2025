@@ -21,7 +21,9 @@ const Navbar = () => {
           <li className="hover:text-indigo-400 cursor-pointer transition">
             <a href="#proyectos">Proyectos</a>
           </li>
-          <li className="hover:text-indigo-400 cursor-pointer transition">Contacto</li>
+          <li className="hover:text-indigo-400 cursor-pointer transition">
+            <a href="#contact">Contacto</a>
+          </li>
         </ul>
 
         {/* Ícono hamburguesa en móvil */}
@@ -37,6 +39,7 @@ const Navbar = () => {
             <button onClick={toggleMenu} className="hover:text-indigo-400 transition">Contacto</button>
           </div>
         )}
+        
       </nav>
     </header>
   );

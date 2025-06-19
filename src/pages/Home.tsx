@@ -19,6 +19,8 @@ const Home = () => {
       if (circle1.current) {
         circle1.current.style.transform = `translateY(${scrollY * 0.3}px)`;
       }
+          
+      
       if (circle2.current) {
         circle2.current.style.transform = `translateY(-${scrollY * 0.2}px)`;
       }

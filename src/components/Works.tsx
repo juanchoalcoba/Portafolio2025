@@ -37,11 +37,11 @@ const projects = [
     demoUrl: 'https://portafolio2024-jade.vercel.app/',
   },
   {
-    title: 'Proyecto X',
-    description: 'Descripción breve del Proyecto X.',
-    imageUrl: '/rey.png',
-    githubUrl: 'https://github.com/usuario/proyecto-f',
-    demoUrl: 'https://proyecto-f.com',
+    title: 'Animacion a traves de Scroll',
+    description: 'Blender HTML CSS Y JS',
+    imageUrl: '/3d.png',
+    githubUrl: 'https://github.com/juanchoalcoba/3D-Ball-Effect',
+    demoUrl: 'https://3-d-ball-effect-xi.vercel.app/',
   },
 ];
 
