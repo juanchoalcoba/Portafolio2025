@@ -37,7 +37,7 @@ const projects = [
     demoUrl: 'https://portafolio2024-jade.vercel.app/',
   },
   {
-    title: 'Animacion a traves de Scroll',
+    title: 'Animación a traves de Scroll',
     description: 'Blender HTML CSS Y JS',
     imageUrl: '/3d.png',
     githubUrl: 'https://github.com/juanchoalcoba/3D-Ball-Effect',
