@@ -1,53 +1,54 @@
-import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from "react-icons/fa";
 
 const projects = [
   {
-    title: 'Rey Clothes & Shoes',
-    description: 'Tienda Online',
-    imageUrl: '/rey.png',
-    githubUrl: 'https://github.com/juanchoalcoba/frontRey',
-    demoUrl: 'https://front-rey.vercel.app/tienda',
+    title: "Rey Clothes & Shoes",
+    description: "Tienda Online",
+    imageUrl: "/rey.png",
+    githubUrl: "https://github.com/juanchoalcoba/frontRey",
+    demoUrl: "https://front-rey.vercel.app/tienda",
   },
   {
-    title: 'Strongfit WebApp',
-    description: 'Sitio web de cadena de gimnasios',
-    imageUrl: '/str.png',
-    githubUrl: 'https://github.com/juanchoalcoba/strongfit',
-    demoUrl: 'https://strongfit-eight.vercel.app/',
+    title: "Strongfit WebApp",
+    description: "Sitio web de cadena de gimnasios",
+    imageUrl: "/str.png",
+    githubUrl: "https://github.com/juanchoalcoba/strongfit",
+    demoUrl: "https://strongfit-eight.vercel.app/",
   },
   {
-    title: 'Kids Party',
-    description: 'Salon de fiestas infantiles',
-    imageUrl: '/kids.png',
-    githubUrl: 'https://github.com/juanchoalcoba/api-party-kids',
-    demoUrl: 'https://kidsparty.uy/',
+    title: "Kids Party",
+    description: "Salon de fiestas infantiles",
+    imageUrl: "/kids.png",
+    githubUrl: "https://github.com/juanchoalcoba/api-party-kids",
+    demoUrl: "https://kidsparty.uy/",
   },
   {
-    title: 'The Beer House',
-    description: 'Cerveceria uruguaya',
-    imageUrl: '/tbh.png',
-    githubUrl: 'https://github.com/juanchoalcoba/thebeerhouse',
-    demoUrl: 'https://thebeerhouse.vercel.app/',
+    title: "The Beer House",
+    description: "Cerveceria uruguaya",
+    imageUrl: "/tbh.png",
+    githubUrl: "https://github.com/juanchoalcoba/thebeerhouse",
+    demoUrl: "https://thebeerhouse.vercel.app/",
   },
   {
-    title: 'Portafolio Nativo ',
-    description: 'Portafolio Nativo HTML CSS JS.',
-    imageUrl: '/port1.png',
-    githubUrl: 'https://github.com/juanchoalcoba/portfolio2024',
-    demoUrl: 'https://portafolio2024-jade.vercel.app/',
+       title: "Modelado con ThreeJs, GSAP & Blender",
+
+    description: "Blender HTML CSS Y JS",
+    imageUrl: "/buzz.png",
+    githubUrl: "https://github.com/juanchoalcoba/buzz3d",
+    demoUrl: "https://buzz3d.vercel.app/",
   },
   {
-    title: 'Animación a traves de Scroll',
-    description: 'Blender HTML CSS Y JS',
-    imageUrl: '/3d.png',
-    githubUrl: 'https://github.com/juanchoalcoba/3D-Ball-Effect',
-    demoUrl: 'https://3-d-ball-effect-xi.vercel.app/',
+    title: "Animación a traves de Scroll",
+    description: "Blender HTML CSS Y JS",
+    imageUrl: "/3d.png",
+    githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",
+    demoUrl: "https://3-d-ball-effect-xi.vercel.app/",
   },
 ];
 
 const Works = () => {
   return (
-    <section id='proyectos' className="py-16 text-white font-roboto">
+    <section id="proyectos" className="py-16 text-white font-roboto">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-6xl font-bold text-center mb-12 flex items-center justify-center gap-4">
           <FaCode className="text-blue-200 text-4xl md:text-5xl" />
