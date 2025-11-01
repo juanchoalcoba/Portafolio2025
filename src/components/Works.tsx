@@ -33,7 +33,7 @@ const projects = [
        title: "Modelado con ThreeJs, GSAP & Blender",
 
     description: "Blender HTML CSS Y JS",
-    imageUrl: "/buzz.png",
+    imageUrl: "/workolga.png",
     githubUrl: "https://github.com/juanchoalcoba/buzz3d",
     demoUrl: "https://buzz3d.vercel.app/",
   },
