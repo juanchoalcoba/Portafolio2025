@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   const jRef = useRef(null);
@@ -57,48 +58,80 @@ const Hero = () => {
         <div className="absolute w-[400px] h-[400px] bg-blue-800 opacity-30 blur-[150px] bottom-10 right-10"></div>
       </div>
 
-      <div className="text-center flex flex-col items-center gap-10">
+      <div className="text-center flex flex-col items-center gap-6">
 
-        {/* SVG corregido */}
+        {/* SVG animado */}
         <svg
-          width="300"
+          width="280"
           height="200"
           viewBox="0 0 300 200"
           fill="none"
           className="drop-shadow-2xl mr-12"
         >
-          {/* J corregida, proporcionada y centrada */}
           <path
             ref={jRef}
             d="M88 40 L80 130 Q80 170 120 173 Q160 170 160 130"
-            stroke="#60a5fa"
+            stroke="#3b82f6"       // color nuevo azul vivo
             strokeWidth="12"
             strokeLinecap="round"
           />
 
-          {/* A del mismo tamaño y proporción */}
           <path
             ref={aRef}
             d="M200 170 L239 40 L260 170 M212 120 L248 120"
-            stroke="#93c5fd"
+            stroke="#60a5fa"       // azul celeste degradado
             strokeWidth="12"
             strokeLinecap="round"
           />
         </svg>
 
-        <h1 className="text-5xl md:text-6xl font-bold text-blue-100 tracking-wide">
+        <h1 className="text-5xl md:text-6xl font-bold tracking-wide text-gradient bg-clip-text text-transparent from-blue-400 via-blue-200 to-indigo-400 bg-gradient-to-r">
           Juan Alcoba
         </h1>
-        <h2 className="text-xl md:text-2xl font-light text-blue-200">
+        <h2 className="text-xl md:text-2xl font-light text-blue-300">
           Developer / Desarrollador
         </h2>
 
+        {/* Botón ÉPICO */}
         <Link
           to="/home"
-          className="px-10 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 transition text-white font-semibold text-lg shadow-lg"
+          className="
+            relative px-12 py-4 rounded-full
+            bg-gradient-to-r from-blue-800 via-blue-950 to-black
+            text-white font-bold text-lg uppercase tracking-wider
+            shadow-lg
+            transition-all duration-500
+            hover:scale-105 hover:shadow-2xl
+
+            before:absolute before:inset-0 before:rounded-full before:bg-white before:opacity-10 before:blur-xl before:transition-opacity before:duration-500
+            hover:before:opacity-20
+            z-10
+          "
         >
           Ingresar
         </Link>
+
+        {/* Redes Sociales */}
+        <div className="flex items-center gap-6 mt-4">
+          <a
+            href="https://github.com/juanchoalcoba"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-white transition-all duration-300 transform hover:scale-105 drop-shadow-[0_0_8px_rgba(96,165,250,0.9)]"
+            >
+            <FaGithub size={38} />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/juan-alcoba-113b5a357/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 h transition-all duration-300 transform hover:scale-110 drop-shadow-[0_0_8px_rgba(96,165,250,0.5)]"
+          >
+            <FaLinkedin size={38} />
+          </a>
+        </div>
+
       </div>
     </section>
   );
