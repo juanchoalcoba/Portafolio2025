@@ -70,7 +70,7 @@ const Hero = () => {
           {/* J corregida, proporcionada y centrada */}
           <path
             ref={jRef}
-            d="M80 40 L80 130 Q80 170 120 170 Q160 170 160 130"
+            d="M88 40 L80 130 Q80 170 120 173 Q160 170 160 130"
             stroke="#60a5fa"
             strokeWidth="12"
             strokeLinecap="round"
@@ -90,7 +90,7 @@ const Hero = () => {
           Juan Alcoba
         </h1>
         <h2 className="text-xl md:text-2xl font-light text-blue-200">
-          Full Stack Developer
+          Developer / Desarrollador
         </h2>
 
         <Link
