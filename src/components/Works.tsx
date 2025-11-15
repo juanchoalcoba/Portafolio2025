@@ -64,7 +64,7 @@ const Works = () => {
               <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-58 object-cover p-1 "
+                className="w-full h-58 object-cover p-1 hover:scale-105 transition-all duration-700"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
