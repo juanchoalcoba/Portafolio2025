@@ -2,6 +2,13 @@ import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from "react-icons/fa";
 
 const projects = [
   {
+    title: "Fetching´S + TensorFlowIA",
+    description: "Fetching API´s externas",
+    imageUrl: "/ia.png",
+    githubUrl: "https://github.com/juanchoalcoba/apirenders",
+    demoUrl: "https://apirenders.vercel.app/",
+  },
+  {
     title: "Rey Clothes & Shoes",
     description: "Tienda Online",
     imageUrl: "/rey.png",
@@ -30,15 +37,7 @@ const projects = [
     demoUrl: "https://thebeerhouse.vercel.app/",
   },
   {
-       title: "Modelado con ThreeJs, GSAP & Blender",
-
-    description: "Blender HTML CSS Y JS",
-    imageUrl: "/workolga.png",
-    githubUrl: "https://github.com/juanchoalcoba/buzz3d",
-    demoUrl: "https://buzz3d.vercel.app/",
-  },
-  {
-    title: "Animación a traves de Scroll",
+    title: "Animación 3D",
     description: "Blender HTML CSS Y JS",
     imageUrl: "/3d.png",
     githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",

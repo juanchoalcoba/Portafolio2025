@@ -1,44 +1,50 @@
-import { FaBookOpen, FaBriefcase, FaGraduationCap, FaPencilRuler, FaUniversity } from "react-icons/fa";
+import {
+  FaBookOpen,
+  FaBriefcase,
+  FaGraduationCap,
+  FaPencilRuler,
+  FaUniversity,
+} from "react-icons/fa";
 import { MdTimeline } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const experiences = [
-      {
+  {
     year: "2025",
-    title: "Acualizando conceptos diariamente",
-    icon: <FaGraduationCap  className="text-blue-200" />,
+    title: "Integrando ML en Frontend con TensorFlow.js",
+    icon: <FaGraduationCap className="text-blue-200" />,
     description:
-      "Estudio diariamente de herramientas asi como idioma Inglés",
+      "Desarrollo prototipos de inteligencia artificial usando TensorFlow.js, experimentando con detección de objetos, procesamiento de imágenes y modelos ejecutados en tiempo real.",
   },
-  
-    {
-        year: "2024",
-        title: "BPU Meat",
-        icon: <FaPencilRuler className="text-blue-200" />,
-        description:
-        "Colaboracion en sitio web empresarial para la planta frigorífica",
-    },
-    {
-      year: "2022 - Actualmente",
-      title: "Desarrollador Full-stack Freelance",
-      icon: <FaBriefcase className="text-blue-200" />,
-      description:
-        "Desarrollé plataformas e-commerce responsivas utilizando React, Tailwind CSS y TypeScript. Integré Swiper, GSAP y modales para interfaces dinámicas.",
-    },
+
+  {
+    year: "2024",
+    title: "BPU Meat",
+    icon: <FaPencilRuler className="text-blue-200" />,
+    description:
+      "Colaboracion en sitio web empresarial para la planta frigorífica",
+  },
+  {
+    year: "2022 - Actualmente",
+    title: "Desarrollador Full-stack Freelance",
+    icon: <FaBriefcase className="text-blue-200" />,
+    description:
+      "Desarrollé plataformas e-commerce responsivas utilizando React, Tailwind CSS y TypeScript. Integré Swiper, GSAP y modales para interfaces dinámicas.",
+  },
   {
     year: "2021",
     title: "Desarrollador Web - Prisma Ecuador",
     icon: <FaBookOpen className="text-blue-200" />,
     description:
       "Trabajé en el desarrollo de sitios web corporativos usando WordPress y Elementor, aplicando personalizaciones con HTML y CSS.",
-  },    
+  },
   {
-      year: "2018 - 2023",
-      title: "LTI - UTEC",
-      icon: <FaUniversity className="text-blue-200" />,
-      description:
+    year: "2018 - 2023",
+    title: "LTI - UTEC",
+    icon: <FaUniversity className="text-blue-200" />,
+    description:
       "Egresado de carrera Tecnologías de la Informacion brindado por la institución UTEC",
-    },
+  },
 ];
 
 export default function Experience() {
