@@ -13,6 +13,7 @@
     "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.8",
     "framer-motion": "^12.16.0",
+    "gsap": "^3.13.0",
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.548.0",
     "react": "^19.1.0",
