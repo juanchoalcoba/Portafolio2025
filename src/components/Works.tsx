@@ -2,9 +2,9 @@ import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Fetching´S + TensorFlowIA",
+    title: "Dashboard API Renders",
     description: "Fetching API´s externas",
-    imageUrl: "/ia.png",
+    imageUrl: "/api.png",
     githubUrl: "https://github.com/juanchoalcoba/apirenders",
     demoUrl: "https://apirenders.vercel.app/",
   },
@@ -56,41 +56,45 @@ const Works = () => {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
-          {projects.map((project, index) => (
-            <div
-              key={index}
-              className="relative bg-gray-800 border-1 border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102"
-            >
-              <img
-                src={project.imageUrl}
-                alt={project.title}
-                className="w-full h-58 object-cover p-1 hover:scale-105 transition-all duration-700"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-400 mb-4">{project.description}</p>
-                <div className="flex justify-between items-center">
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-700 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-600 transition duration-400"
-                  >
-                    <FaGithub />
-                    <span>Código</span>
-                  </a>
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-blue-600 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition duration-400"
-                  >
-                    <FaExternalLinkAlt />
-                    <span>Demo</span>
-                  </a>
-                </div>
-              </div>
-            </div>
+          {projects.map((project) => (
+            <div className="relative bg-gray-800 border border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102">
+  
+  {/* Contenedor fijo para la imagen */}
+  <div className="w-full h-48 overflow-hidden bg-black">
+    <img
+      src={project.imageUrl}
+      alt={project.title}
+      className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
+    />
+  </div>
+
+  <div className="p-6">
+    <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+    <p className="text-gray-400 mb-4">{project.description}</p>
+
+    <div className="flex justify-between items-center">
+      <a
+        href={project.githubUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-gray-700 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-600 transition duration-400"
+      >
+        <FaGithub />
+        <span>Código</span>
+      </a>
+      <a
+        href={project.demoUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-blue-600 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition duration-400"
+      >
+        <FaExternalLinkAlt />
+        <span>Demo</span>
+      </a>
+    </div>
+  </div>
+</div>
+
           ))}
         </div>
       </div>
