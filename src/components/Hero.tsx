@@ -96,15 +96,13 @@ const Hero = () => {
         <Link
           to="/home"
           className="
-            relative px-12 py-4 rounded-full
-            bg-gradient-to-r from-blue-800 via-blue-950 to-black
+            relative px-8 py-2 rounded-full
+            bg-blue-900
             text-white font-bold text-lg uppercase tracking-wider
             shadow-lg
             transition-all duration-500
-            hover:scale-105 hover:shadow-2xl
-
-            before:absolute before:inset-0 before:rounded-full before:bg-white before:opacity-10 before:blur-xl before:transition-opacity before:duration-500
-            hover:before:opacity-20
+            hover:text-blue-950
+            hover:bg-white
             z-10
           "
         >
