@@ -26,6 +26,7 @@ function App() {
   return (
     <>
       <Navbar />
+      
       <main className="w-full">
         <Routes>
           <Route path="/" element={<Hero />} />

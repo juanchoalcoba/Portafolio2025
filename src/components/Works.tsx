@@ -30,11 +30,11 @@ const projects = [
     demoUrl: "https://kidsparty.uy/",
   },
   {
-    title: "The Beer House",
-    description: "Cerveceria uruguaya",
-    imageUrl: "/tbh.png",
-    githubUrl: "https://github.com/juanchoalcoba/thebeerhouse",
-    demoUrl: "https://thebeerhouse.vercel.app/",
+    title: "Canal Stream OLGA",
+    description: "Diseño para canal de STREAMING",
+    imageUrl: "/olga.png",
+    githubUrl: "https://github.com/juanchoalcoba/olgaenvivo",
+    demoUrl: "https://olgaenvivo.vercel.app/",
   },
   {
     title: "Animación 3D",
