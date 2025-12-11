@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section className="min-h-screen w-full  text-white flex flex-col items-center justify-center">
       <h1 className="text-6xl md:text-8xl font-bold mb-6 text-blue-200 text-center drop-shadow-lg">
-        Sobre mí
+        Perfil profesional
       </h1>
 
       <p className="text-lg md:text-xl text-balance text-center max-w-2xl text-gray-300 mb-10">
