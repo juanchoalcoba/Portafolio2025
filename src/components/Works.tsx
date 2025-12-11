@@ -37,7 +37,7 @@ const projects = [
     demoUrl: "https://olgaenvivo.vercel.app/",
   },
   {
-    title: "Animación 3D",
+    title: "Animación 3D (wait loading...)",
     description: "Blender HTML CSS Y JS",
     imageUrl: "/3d.png",
     githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",
