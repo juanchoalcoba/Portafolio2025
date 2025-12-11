@@ -23,11 +23,11 @@ const projects = [
     demoUrl: "https://strongfit-eight.vercel.app/",
   },
   {
-    title: "Kids Party",
-    description: "Salon de fiestas infantiles",
-    imageUrl: "/kids.png",
-    githubUrl: "https://github.com/juanchoalcoba/api-party-kids",
-    demoUrl: "https://kidsparty.uy/",
+    title: "Horizontal Scroll",
+    description: "Scroll horizontal con Lenis y GSAP",
+    imageUrl: "/horizontal.png",
+    githubUrl: "https://github.com/juanchoalcoba/scroll-horizontal",
+    demoUrl: "https://scroll-horizontal.vercel.app/",
   },
   {
     title: "Canal Stream OLGA",
@@ -58,43 +58,41 @@ const Works = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
           {projects.map((project) => (
             <div className="relative bg-gray-800 border border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102">
-  
-  {/* Contenedor fijo para la imagen */}
-  <div className="w-full h-48 overflow-hidden bg-black">
-    <img
-      src={project.imageUrl}
-      alt={project.title}
-      className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
-    />
-  </div>
+              {/* Contenedor fijo para la imagen */}
+              <div className="w-full h-48 overflow-hidden bg-black">
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
+                  className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
+                />
+              </div>
 
-  <div className="p-6">
-    <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-    <p className="text-gray-400 mb-4">{project.description}</p>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-gray-400 mb-4">{project.description}</p>
 
-    <div className="flex justify-between items-center">
-      <a
-        href={project.githubUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-gray-700 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-600 transition duration-400"
-      >
-        <FaGithub />
-        <span>Código</span>
-      </a>
-      <a
-        href={project.demoUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-blue-600 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition duration-400"
-      >
-        <FaExternalLinkAlt />
-        <span>Demo</span>
-      </a>
-    </div>
-  </div>
-</div>
-
+                <div className="flex justify-between items-center">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-700 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-gray-600 transition duration-400"
+                  >
+                    <FaGithub />
+                    <span>Código</span>
+                  </a>
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition duration-400"
+                  >
+                    <FaExternalLinkAlt />
+                    <span>Demo</span>
+                  </a>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
