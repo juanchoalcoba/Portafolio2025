@@ -6,14 +6,6 @@ import { FaGithub, FaExternalLinkAlt, FaCode, FaRocket } from "react-icons/fa"
 // ... (El array de projects sigue siendo el mismo)
 const projects = [
   {
-    title: "Dashboard API Renders",
-    description: "Fetching API´s externas",
-    imageUrl: "/api.png",
-    videoUrl: "/mini.mp4",
-    githubUrl: "https://github.com/juanchoalcoba/apirenders",
-    demoUrl: "https://apirenders.vercel.app/",
-  },
-  {
     title: "Rey Clothes & Shoes",
     description: "Tienda Online",
     imageUrl: "/rey.png",
@@ -30,6 +22,14 @@ const projects = [
 
     githubUrl: "https://github.com/juanchoalcoba/strongfit",
     demoUrl: "https://strongfit-eight.vercel.app/",
+  },
+  {
+    title: "Animación 3D (wait loading...)",
+    description: "Blender HTML CSS Y JS",
+    imageUrl: "/3d.png",
+    videoUrl: "/ball3d.mp4",
+    githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",
+    demoUrl: "https://3-d-ball-effect-xi.vercel.app/",
   },
   {
     title: "Horizontal Scroll",
@@ -53,12 +53,12 @@ const projects = [
     demoUrl: "https://cap1891.vercel.app/",
   },
   {
-    title: "Animación 3D (wait loading...)",
-    description: "Blender HTML CSS Y JS",
-    imageUrl: "/3d.png",
-    videoUrl: "/ball3d.mp4",
-    githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",
-    demoUrl: "https://3-d-ball-effect-xi.vercel.app/",
+    title: "Dashboard API Renders",
+    description: "Fetching API´s externas",
+    imageUrl: "/api.png",
+    videoUrl: "/mini.mp4",
+    githubUrl: "https://github.com/juanchoalcoba/apirenders",
+    demoUrl: "https://apirenders.vercel.app/",
   },
 ]
 
