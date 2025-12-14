@@ -9,7 +9,7 @@ const projects = [
     title: "Rey Clothes & Shoes",
     description: "Tienda Online",
     imageUrl: "/rey.png",
-        videoUrl: "/rey2.mp4",
+        videoUrl: "/hnos.mp4",
 
     githubUrl: "https://github.com/juanchoalcoba/frontRey",
     demoUrl: "https://front-rey.vercel.app/tienda",
@@ -18,7 +18,7 @@ const projects = [
     title: "Strongfit WebApp",
     description: "Sitio web de cadena de gimnasios",
     imageUrl: "/str.png",
-            videoUrl: "/gymvideo.mp4",
+            videoUrl: "/ddd.mp4",
 
     githubUrl: "https://github.com/juanchoalcoba/strongfit",
     demoUrl: "https://strongfit-eight.vercel.app/",
@@ -35,6 +35,7 @@ const projects = [
     title: "Horizontal Scroll",
     description: "Scroll horizontal con Lenis y GSAP",
     imageUrl: "/horizontal.png",
+    videoUrl: "/n.mp4",
     githubUrl: "https://github.com/juanchoalcoba/scroll-horizontal",
     demoUrl: "https://scroll-horizontal.vercel.app/",
   },
