@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <>
       {/* Fondo nebuloso fijo con gradientes y manchas, detrás de todo */}
-      <div className="fixed inset-0 -z-10 bg-gradient-to-tr from-gray-900 via-gray-950 to-gray-900">
+      <div className="fixed inset-0 -z-10 bg-gradient-to-tr from-gray-800 via-gray-950 to-gray-900">
         {/* Capa oscura que va cambiando opacidad con scroll */}
         <div
           ref={overlay}
