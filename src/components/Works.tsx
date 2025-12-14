@@ -37,6 +37,13 @@ const projects = [
     demoUrl: "https://olgaenvivo.vercel.app/",
   },
   {
+    title: "Super Animation FrontendJs...)",
+    description: "GSAP ScrollTrigger",
+    imageUrl: "/workmini.png",
+    githubUrl: "https://github.com/juanchoalcoba/cap1891",
+    demoUrl: "https://cap1891.vercel.app/",
+  },
+  {
     title: "Animación 3D (wait loading...)",
     description: "Blender HTML CSS Y JS",
     imageUrl: "/3d.png",
@@ -55,7 +62,7 @@ const Works = () => {
           <FaRocket className="text-blue-200 text-4xl md:text-5xl" />
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16">
           {projects.map((project) => (
             <div className="relative bg-gray-800 border border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102">
               {/* Contenedor fijo para la imagen */}

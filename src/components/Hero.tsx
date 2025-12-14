@@ -43,7 +43,7 @@ const Hero = () => {
         strokeDashoffset: 1000,
         opacity: 0.3,
         filter: "drop-shadow(0 0 0 transparent)",
-        duration: 1,
+        duration: 4,
         ease: "power2.inOut",
       });
   }, []);
@@ -53,6 +53,7 @@ const Hero = () => {
 
       {/* Fondo */}
       <div className="absolute inset-0 -z-10">
+
         <div className="absolute w-[600px] h-[600px] bg-blue-900 opacity-20 blur-[200px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute w-[400px] h-[400px] bg-indigo-700 opacity-30 blur-[150px] top-10 left-10"></div>
         <div className="absolute w-[400px] h-[400px] bg-blue-800 opacity-30 blur-[150px] bottom-10 right-10"></div>

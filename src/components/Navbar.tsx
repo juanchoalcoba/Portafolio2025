@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes, FaBriefcase } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +10,20 @@ const Navbar = () => {
   return (
     <header className="fixed w-full z-30 bg-gray-900/40 backdrop-blur-xl shadow-lg border-b border-white/10">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        
+
         {/* BRAND */}
         <Link
           to="/"
           className="flex items-center gap-3 text-xl font-bold tracking-wide text-gray-200 hover:text-white transition-all"
         >
-          <FaBriefcase className="text-indigo-400 text-2xl" />
+
+          {/* IMAGEN AL LADO DEL TEXTO */}
+          <img
+            src="/perfil.jpeg"     // reemplaza con la ruta real
+            alt="Avatar de Juancho"
+            className="w-8 h-8 rounded-full object-cover border border-white/20"
+          />
+
           <span className="text-gray-200">Juancho</span>
         </Link>
 
