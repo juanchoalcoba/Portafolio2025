@@ -119,7 +119,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
         <p className="text-gray-400 mb-4">{project.description}</p>
 
-        <div className="flex justify-between items-center gap-x-2">
+        <div className="flex justify-between items-center">
           <a
             href={project.githubUrl}
             target="_blank"
@@ -155,7 +155,7 @@ const Works = () => {
           <FaRocket className="text-blue-200 text-4xl md:text-5xl" />
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}
