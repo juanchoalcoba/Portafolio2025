@@ -27,7 +27,7 @@ const projects = [
     title: "Animación 3D (wait loading...)",
     description: "Blender HTML CSS Y JS",
     imageUrl: "/3d.png",
-    videoUrl: "/ball3d.mp4",
+    videoUrl: "/aaa.mp4",
     githubUrl: "https://github.com/juanchoalcoba/3D-Ball-Effect",
     demoUrl: "https://3-d-ball-effect-xi.vercel.app/",
   },
@@ -85,7 +85,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
   }, [isHovered, project.videoUrl]) // Se ejecuta cada vez que isHovered cambia
 
   return (
-    <div className="relative bg-gray-800 border border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-102">
+    <div className="relative bg-gray-800 border border-gray-300 hover:bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-700 transform hover:scale-105">
       <div
         className="w-full h-48 overflow-hidden bg-black relative"
         onMouseEnter={() => setIsHovered(true)}
@@ -119,7 +119,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
         <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
         <p className="text-gray-400 mb-4">{project.description}</p>
 
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-x-2">
           <a
             href={project.githubUrl}
             target="_blank"
@@ -136,7 +136,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
             className="bg-blue-600 text-white py-1 px-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition duration-400"
           >
             <FaExternalLinkAlt />
-            <span>Demo</span>
+            <span>Demo</span> 
           </a>
         </div>
       </div>
