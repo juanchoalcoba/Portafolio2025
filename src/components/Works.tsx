@@ -85,7 +85,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
   }, [isHovered, project.videoUrl])
 
   return (
-    <div className="group relative bg-gray-800 border border-gray-700 hover:border-blue-500 rounded-xl overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2">
+    <div className="group relative bg-gray-900 border border-gray-700 hover:border-blue-500 rounded-xl overflow-hidden shadow-lg transition-all duration-500 hover:-translate-y-2">
       {/* CONTENEDOR DE MEDIA: Aquí está el truco del posicionamiento */}
       <div
         className="relative w-full aspect-video overflow-hidden bg-gray-900" 
@@ -116,7 +116,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
       </div>
 
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2 text-white group-hover:text-blue-400 transition-colors">
+        <h3 className="text-xl font-bold mb-2 text-white group-hover:text-blue-100 transition-colors">
             {project.title}
         </h3>
         <p className="text-gray-400 text-sm mb-5 line-clamp-2">{project.description}</p>
