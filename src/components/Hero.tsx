@@ -93,7 +93,7 @@ const Hero = () => {
           Developer / Desarrollador
         </h2>
 
-        {/* Botón ÉPICO */}
+
         <Link
           to="/home"
           className="

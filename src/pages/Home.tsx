@@ -44,9 +44,8 @@ const Home = () => {
 
   return (
     <>
-      {/* Fondo nebuloso fijo con gradientes y manchas, detrás de todo */}
       <div className="fixed inset-0 -z-10 bg-gradient-to-tr from-gray-800 via-gray-950 to-gray-900">
-        {/* Capa oscura que va cambiando opacidad con scroll */}
+
         <div
           ref={overlay}
           className="absolute inset-0 pointer-events-none transition-colors duration-300"
@@ -70,7 +69,6 @@ const Home = () => {
         />
       </div>
 
-      {/* Contenedor principal del contenido */}
       <section className="flex flex-col items-center justify-center font-roboto pt-8 px-6 text-white">
         <div className="w-full flex flex-col justify-center items-center">
           <About />

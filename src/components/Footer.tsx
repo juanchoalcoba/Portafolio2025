@@ -50,7 +50,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="mt-8 text-center text-gray-500 text-sm">
         &copy; {new Date().getFullYear()} Juancho. Todos los derechos
         reservados.
