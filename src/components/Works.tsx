@@ -144,7 +144,7 @@ const ProjectCard = ({ project }: { project: (typeof projects)[0]; index: number
       </div>
     </div>
   )
-}
+} 
 
 const Works = () => {
   return (
